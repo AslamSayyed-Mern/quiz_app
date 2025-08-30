@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz app</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div>
+        <div id="instruction-container">
+            <h3>Instructions</h3>
+            <p>For every correct answer you will get 1 mark</p>
+            <p>For every wrong answer you will get 0 mark</p>
+            <p>No of questions are 10</p>
+            <p>Duration of quiz is 10 minutes</p>
+            <p>avoid malpractice</p>
+        </div>
+        <div id="question-container">
+            <h1>quiz app</h1>
+            <p id="marks">Marks :0</p>
+            <p id="time">10:00</p>
+            <div>
+                <h1 id="quest">question</h1>
+                <button class="opt">option1</button>
+                <button class="opt">option2</button>
+                <button class="opt">option3</button>
+                <button class="opt">option4</button>
+            </div>
+        </div>
+        <div id="quizOver-container">
+            <h1>Quiz Over</h1>
+            <p id="result-message"></p>
+            <button id="btn-reset" style="display:none;">Restart Quiz</button>
+        </div>
+        <button id="btn-start">Start Quiz</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
